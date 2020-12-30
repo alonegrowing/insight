@@ -10,8 +10,8 @@ logpath = "./logs/trace.log"
 
 [[database]]
 name="mysql-insight"
-master = "root:hope@tcp(127.0.0.1:3306)/insight?charset=utf8mb4"
-slaves = ["root:hope@tcp(127.0.0.1:3306)/insight?charset=utf8mb4"]
+master = "root:hope@tcp(localhost:3306)/insight?charset=utf8mb4"
+slaves = ["root:hope@tcp(localhost:3306)/insight?charset=utf8mb4"]
 
 
 [[redis]]
