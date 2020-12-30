@@ -11,6 +11,7 @@ func init() {
 }
 
 func NewMysqlGroup(database []sql.GroupConfig) {
+	return // TODO
 	if len(database) == 0 {
 		return
 	}
