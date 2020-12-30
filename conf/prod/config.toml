@@ -1,0 +1,28 @@
+service_name="insight"
+
+[service]
+web_port = 8888
+rpc_port = 8889
+
+[log]
+level="debug"
+logpath = "./logs/trace.log"
+
+[[database]]
+name="mysql-insight"
+master = "root:hope@tcp(127.0.0.1:3306)/insight?charset=utf8mb4"
+slaves = ["root:hope@tcp(127.0.0.1:3306)/insight?charset=utf8mb4"]
+
+
+[[redis]]
+name="redis-store"
+addr="127.0.0.1:6379"
+password="hope"
+max_idle=100
+max_active=500
+idle_timeout=1000
+connect_timeout=300
+read_timeout=600
+write_timeout=600
+database=0
+slow_time = 200
