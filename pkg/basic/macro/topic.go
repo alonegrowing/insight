@@ -49,8 +49,8 @@ var TopicData = []Topic{
 		Created: 1609304637,
 		Member: Member{
 			ID:     351936818,
-			Name:   "空山陋室",
-			Avatar: "https://tvax4.sinaimg.cn/crop.0.0.1080.1080.180/4fb19f04ly8fxniq3gefgj20u00u0wja.jpg",
+			Name:   "Deam Suresh",
+			Avatar: "https://wx1.sinaimg.cn/mw690/66729e4cly1gmg85lrr9hj2050050dfq.jpg",
 		},
 		Interactive: Interactive{
 			GoodNum:    809,
