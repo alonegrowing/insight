@@ -41,23 +41,7 @@ var TopicData = []Topic{
 			ShareNum:   390132,
 		},
 	},
-	Topic{
-		ID:      2,
-		Name:    "恋情告急",
-		Img:     "https://wx1.sinaimg.cn/mw690/6bbb09c4ly1gmfc0tfsmjj21w02iox6q.jpg",
-		Content: "现在我终于明白了，原来每一段恋爱，只要在心里面，已经是天长地久。",
-		Created: 1609304637,
-		Member: Member{
-			ID:     351936818,
-			Name:   "空山陋室",
-			Avatar: "https://wx2.sinaimg.cn/mw690/66729e4cly1gmg85lrnlbj2050050q2s.jpg",
-		},
-		Interactive: Interactive{
-			GoodNum:    16,
-			CommentNum: 22,
-			ShareNum:   132,
-		},
-	},
+
 	Topic{
 		ID:      3,
 		Name:    "再说一次我爱你",
