@@ -27,7 +27,7 @@ var Comments = []Comment {
 	},
 	{
 		ID: 2,
-		Content: "既有少女的清甜，又兼具美少年气质! 出道13了好难得",
+		Content: "既有少女的清甜，又兼具美少年气质! 出道13了好难",
 		Created: "2021-09-21",
 		Member: Member{
 			ID:     351936818,
