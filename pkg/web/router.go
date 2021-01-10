@@ -24,6 +24,6 @@ func NewRouter() *gin.Engine {
 
 	route.GET("/api/topic", homeHandler.Get)
 	route.GET("/api/topics", homeHandler.GetList)
-
+	route.GET("/api/comments", homeHandler.GetCommentList)
 	return route
 }

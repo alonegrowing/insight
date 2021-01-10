@@ -32,3 +32,7 @@ func (d *PoemHandler) Get(r *gin.Context) {
 func (d *PoemHandler) GetList(r *gin.Context) {
 	d.success(r, macro.TopicData)
 }
+
+func (d *PoemHandler) GetCommentList (r *gin.Context) {
+	d.success(r, macro.Comments)
+}
