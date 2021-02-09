@@ -9,7 +9,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/alonegrowing/insight/pkg/sea/log"
+	"github.com/alonegrowing/insight/pkg/treasure/log"
 	"github.com/garyburd/redigo/redis"
 )
 

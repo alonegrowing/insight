@@ -3,7 +3,7 @@ package resource
 import (
 	"github.com/alonegrowing/insight/pkg/basic/util"
 	"github.com/alonegrowing/insight/pkg/config"
-	"github.com/alonegrowing/insight/pkg/sea/sql"
+	"github.com/alonegrowing/insight/pkg/treasure/sql"
 )
 
 func init() {

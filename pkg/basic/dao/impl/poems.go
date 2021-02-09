@@ -7,7 +7,7 @@ import (
 	"github.com/alonegrowing/insight/pkg/basic/macro"
 	"github.com/alonegrowing/insight/pkg/basic/resource"
 	"github.com/alonegrowing/insight/pkg/basic/util"
-	"github.com/alonegrowing/insight/pkg/sea/sql"
+	"github.com/alonegrowing/insight/pkg/treasure/sql"
 )
 
 type PoemDaoImpl struct {

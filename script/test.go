@@ -4,7 +4,7 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/alonegrowing/insight/pkg/sea/log"
+	"github.com/alonegrowing/insight/pkg/treasure/log"
 
 	"github.com/alonegrowing/insight/pkg/basic/dao/impl"
 )

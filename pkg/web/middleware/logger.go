@@ -4,7 +4,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/alonegrowing/insight/pkg/sea/log"
+	"github.com/alonegrowing/insight/pkg/treasure/log"
 	"github.com/gin-gonic/gin"
 )
 

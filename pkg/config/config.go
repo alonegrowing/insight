@@ -4,10 +4,10 @@ import (
 	"os"
 
 	"github.com/alonegrowing/insight/pkg/basic/util"
-	"github.com/alonegrowing/insight/pkg/sea/log"
-	"github.com/alonegrowing/insight/pkg/sea/redis"
-	"github.com/alonegrowing/insight/pkg/sea/sql"
-	"github.com/alonegrowing/insight/pkg/sea/tomlconfig"
+	"github.com/alonegrowing/insight/pkg/treasure/log"
+	"github.com/alonegrowing/insight/pkg/treasure/redis"
+	"github.com/alonegrowing/insight/pkg/treasure/sql"
+	"github.com/alonegrowing/insight/pkg/treasure/tomlconfig"
 )
 
 var (

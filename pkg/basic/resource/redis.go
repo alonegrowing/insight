@@ -4,7 +4,7 @@ import (
 	"errors"
 
 	"github.com/alonegrowing/insight/pkg/config"
-	"github.com/alonegrowing/insight/pkg/sea/redis"
+	"github.com/alonegrowing/insight/pkg/treasure/redis"
 )
 
 var defaultRedis map[string]*redis.Redis
